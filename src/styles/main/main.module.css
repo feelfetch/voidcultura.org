@@ -1,0 +1,41 @@
+.container {
+  padding: 0;
+}
+
+.main {
+  padding: 0;
+}
+
+.hero {
+
+}
+
+.heroContainer {
+
+}
+
+.heroHeadingText {
+
+}
+
+.footer {
+
+}
+
+.heroInfoLinks {
+  display: inline-flex;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.svgCls1 {
+  fill: transparent;
+}
+
+.svgCls2 {
+  fill: white;
+}
