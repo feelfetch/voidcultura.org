@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             </div>
           </section>
 
-          <section id="thirdSection" className={[styles.hero, "vh-75 dt w-100 bg-white relative z-1"].join(' ')} data-scroll data-scroll-speed="-4">
+          <section id="thirdSection" className={[styles.hero, "vh-75 dt w-100 bg-white relative z-1"].join(' ')} data-scroll data-scroll-speed="2" data-scroll-target="#thirdSection">
             <div className={[styles.heroContainer, "dtc v-mid tc black ph3 ph4-l"].join(' ')}>
               <h1 className={[styles.heroHeadingText, "f6 f2-m f-subheadline-l fw6 tc mv0"].join(' ')}><Link href="mailto:info@voidcultura.org">info@voidcultura.org</Link></h1>
               <h1 className={[styles.heroHeadingText, "f6 f2-m f-subheadline-l fw6 tc mv0"].join(' ')}><Link href="https://instagram.com/voidcultura" passHref><a target="_blank" rel="noopener noreferrer">Instagram</a></Link> / <Link href="https://facebook.com/voidcultura"><a target="_blank" rel="noopener noreferrer">Facebook</a></Link></h1>
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             </div>
           </section>
 
-          <footer id="footerSection" data-scroll data-scroll-speed="-8" data-scroll-target="#footerSection" data-scroll-position="bottom">
+          <footer id="footerSection" data-scroll data-scroll-speed="-4" data-scroll-target="#footerSection" data-scroll-position="bottom">
             <div className={[styles.footer, "vh-25 dt w-100 bg-black relative z-0"].join(' ')}>
               <div className={[styles.footerContainer, "dtc v-mid tc white ph3 ph4-l"].join(' ')}>
                 <h1 className={[styles.footerText, "f6 tc mv0"].join(' ')}>SITO IN COSTRUZIONE</h1>
