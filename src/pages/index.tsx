@@ -32,7 +32,7 @@ const Home: NextPage = () => {
             </div>
           </section>
 
-          <section id="secondSection" className={[styles.hero, "vh-50 vh-100-ns dt w-100 bg-void-green relative z-2"].join(' ')} data-scroll data-scroll-speed="0">
+          <section id="secondSection" className={[styles.hero, "vh-75 vh-100-ns dt w-100 bg-void-green relative z-2"].join(' ')} data-scroll data-scroll-speed="0">
             <div className={[styles.heroContainer, "w-100 fixed top-1 left-0 center tc black ph3 ph4-l"].join(' ')}>
               <h1 className={[styles.heroInfoLinks, "f6 fw6 tc white"].join(' ')}><div className={["mr3"].join(' ')}><span>13/08/22</span></div><div className={["ttu mr3"].join(' ')}><span>Void City Hall 22</span></div></h1>
             </div>
