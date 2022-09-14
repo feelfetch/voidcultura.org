@@ -119,6 +119,14 @@ html.has-scroll-dragging {
   background-color: #0C8E35;
 }
 
+.bg-void-cream {
+  background-color: #c7b299;
+}
+
+.void-choco {
+  color: #534741;
+}
+
 .blinker {
   text-decoration: blink;
 	-webkit-animation-name: blinker;
